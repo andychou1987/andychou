@@ -14,6 +14,7 @@ public class Card {
     private int value;
     
     public Card (String s, int v){
+        System.out.println();
         suit = s;
         value = v;
         if (s.equals("Hearts") || s.equals("Spades") 
